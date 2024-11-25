@@ -29,7 +29,9 @@ function renderColumns() {
     columns.forEach((value) => {
         container.removeChild(value);
     });
-    console.log('oi!');
+
+    const cellSize = Math.floor(960 / size);
+
     for (i = 0; i < size; i++) {
         let column = document.createElement('div');
         column.classList.add('column');
@@ -39,6 +41,8 @@ function renderColumns() {
         {
             let newDiv = document.createElement('div');
             newDiv.classList.add('grid');
+            newDiv.style.height = `${cellSize / 2}px`
+            newDiv.style.width = `${cellSize / 2}px`
             column.appendChild(newDiv);
         }
     }

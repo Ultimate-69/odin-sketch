@@ -10,25 +10,24 @@
     align-items: center;
     justify-content: center;
     width: 960px;
-    gap: 1px;
+    max-width: 960px;
+    max-height: 960px;
 }
 
 .button-container {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .column {
     display: flex;
     flex-direction: column;
-    gap: 1px;
 }
 
 .grid {
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
     background-color: black;
 }
 

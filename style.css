@@ -1,12 +1,29 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .container {
     display: flex;
-    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 960px;
+    gap: 1px;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .column {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 1px;
 }
 
 .grid {
